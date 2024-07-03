@@ -6,7 +6,13 @@ export default function Home() {
   return (
     <>
       <Seo title="Coders Monkeys" description="Description..." />
-      <Typography variant="h1" component="h1">Coders Monkey</Typography>
+      <div className="space-y-5">
+        <Typography variant="display" component="div">Coders Monkey</Typography>
+        <Typography variant="h1" component="div">Coders Monkey</Typography>
+        <Typography variant="lead" component="div">Coders Monkey</Typography>
+        <Typography variant="body-sm" component="div">Coders Monkey</Typography>
+        <Typography variant="caption4" weight="medium" component="div">Coders Monkey</Typography>
+      </div>
     </>
   );
 }
