@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Seo title="Coders Monkeys" description="Description..." />
-      <h1>Hello world</h1>
+      <h1>Hello world !</h1>
     </>
   );
 }
