@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    borderRadius: {
+      DEFAULT: '10px',
+      full: '9999px',
+    },
     colors: {
       white : '#FFFFFF',
       primary: {
