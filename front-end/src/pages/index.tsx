@@ -1,10 +1,11 @@
 
-import { Seo } from "@/ui/components/seo";
+import { Seo } from "@/ui/components/seo/seo";
 import { Avatar } from "@/ui/design-system/avatar/avatar";
 import { Button } from "@/ui/design-system/button/button";
 import { Logo } from "@/ui/design-system/logo/logo";
 import { Spinner } from "@/ui/design-system/spinner/spinner";
 import { Typography } from "@/ui/design-system/typography/typography";
+import { Container } from "@/ui/components/container";
 import { RiAncientGateFill, RiUser6Fill, RiUser6Line } from "react-icons/ri";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
     <>
       <Seo title="Coders Monkeys" description="Description..." />
 
-      <div className="max-w-6xl mx-auto p-5">
+      <Container className="py-10 space-y-5">
         {/* Spinner */}
         <div className="flex items-center gap-4 p-10">
           <Spinner size="small" />
@@ -90,7 +91,7 @@ export default function Home() {
           <Typography variant="body-sm" component="div">Coders Monkey</Typography>
           <Typography variant="caption4" weight="medium" component="div">Coders Monkey</Typography>
         </div>
-      </div>
+      </Container>
     </>
   );
 }
