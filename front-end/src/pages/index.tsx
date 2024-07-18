@@ -7,11 +7,13 @@ import { Spinner } from "@/ui/design-system/spinner/spinner";
 import { Typography } from "@/ui/design-system/typography/typography";
 import { Container } from "@/ui/components/container";
 import { RiAncientGateFill, RiUser6Fill, RiUser6Line } from "react-icons/ri";
+import { Navigation } from "@/ui/components/navigation/navigation";
 
 export default function Home() {
   return (
     <>
       <Seo title="Coders Monkeys" description="Description..." />
+      <Navigation/>
 
       <Container className="py-10 space-y-5">
         {/* Spinner */}
