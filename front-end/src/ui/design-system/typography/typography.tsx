@@ -56,9 +56,7 @@ export const Typography = ({
             break;
         case "secondary":
             colorStyles = "text-secondary";
-            break
-        default:
-            break;   
+            break; 
     }
 
     switch (variant) {
