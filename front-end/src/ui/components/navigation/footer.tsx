@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 import { ActiveLink } from "./active-link";
 import { FooterLinks } from "@/types/app-links";
 import { LinkTypes } from "@/lib/link-type";
+import { SocialNetworks } from "./social-networks";
 
 export const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -37,7 +38,7 @@ export const Footer = () => {
                         </a>
                         {` - SA`}
                     </Typography>
-                    <div></div>
+                    <div className=""><SocialNetworks theme="gray"/></div>
                 </div>
             </Container>
         </div>
